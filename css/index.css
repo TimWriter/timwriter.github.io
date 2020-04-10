@@ -1,0 +1,61 @@
+html, body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    position: relative;
+}
+
+
+
+
+#clouds{
+    width: auto;
+    height: 120%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#clouds > *{
+    z-index: 2;
+}
+
+.logo{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 220px;
+    height: auto;
+    z-index: 10;
+}
+
+div{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1{
+    color: #13315C;
+    z-index: 10;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+h2{
+    color: #13315C;
+    z-index: 10;
+    text-align: center;
+    margin-top: -20px;
+}
+
+
